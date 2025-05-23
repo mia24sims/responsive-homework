@@ -13,7 +13,6 @@ body {
 h1 {
   font-size: 65px;
   text-align: center;
- 
 }
 
 h2 {
@@ -58,10 +57,10 @@ img {
 
 p {
   background: var(--secondary-color);
-  padding: 20px;
+  padding: 15px;
   border-radius: 4px;
-  font-size: 28px;
-  line-height: 1.5;
+  font-size: 30px;
+  line-height: 1.8;
   text-align: center;
   margin-left: 25px;
   color: white;
@@ -165,4 +164,102 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    text-align: left;
+  }
+  .navbar {
+    display: block;
+  }
+  h1 {
+    font-size: 22px;
+    display: block;
+  }
+  .black-woman {
+    max-width: 200px;
+    display: block;
+  }
+  h2 {
+    font-size: 20px;
+    display: block;
+  }
+  .project {
+    display: none;
+  }
+
+  .yoga-section h2 {
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .yoga-section p {
+    font-size: 57px;
+  }
+  .weather-section h2 {
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+  .weather-section p {
+    font-size: 55px;
+  }
+  .yogurt-section h2 {
+    display: flex;
+    justify-content: right;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 18px;
+  }
+  .yogurt-section p {
+    font-size: 55px;
+  }
+  .launch {
+    font-size: 22px;
+    margin: 0px;
+  }
+  .contact-button {
+    margin-top: 15px;
+    font-size: medium;
+  }
+  .about-button {
+    margin-top: 15px;
+    font-size: medium;
+  }
+  .homepage-link {
+    margin-bottom: 70px;
+  }
+  .homepage-link {
+    margin-top: 70px;
+    margin-bottom: 20px;
+  }
+  .about-me {
+    font-size: medium;
+  }
+  .front-end-dev {
+    font-size: 19px;
+  }
+  .title {
+    margin-top: 25px;
+    font-size: 25px;
+  }
+  .intel-info {
+    font-size: 20px;
+    display: block;
+    margin: 0 15px;
+  }
+  .yoga {
+    margin-top: 20px;
+  }
+  .contact-me {
+    font-size: 35px;
+  }
+  .contact-info {
+    font-size: 25px;
+  }
 }
