@@ -133,6 +133,22 @@ p {
   color: white;
 }
 
+.yoga {
+  width: 170px !important;
+}
+.weather {
+  width: 170px !important;
+}
+
+.yogurt {
+  width: 170px !important;
+}
+
+.intel-info {
+  display: block;
+  margin: 0 20px;
+  margin-bottom: 25px;
+}
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
