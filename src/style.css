@@ -1,0 +1,168 @@
+:root {
+  --main-color: #17a2b8;
+  --secondary-color: #68d2e3cf;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  color: white;
+}
+
+h1 {
+  font-size: 65px;
+  text-align: center;
+ 
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+.yoga-section {
+  text-align: center;
+}
+
+.weather-section {
+  text-align: center;
+}
+
+.yogurt-section {
+  text-align: center;
+}
+
+.project {
+  border-radius: 15px;
+  border: 4px solid #1cbcd5;
+}
+
+.launch {
+  font-size: 20px;
+  background-color: #1cbcd5;
+  color: white;
+  border-radius: 15px;
+  box-shadow: var(--box-shadow);
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  margin-left: 25px;
+  color: white;
+}
+
+.intel-info {
+  padding: 15px;
+}
+
+.buttons {
+  margin-top: 35px;
+
+  text-align: center;
+}
+
+.contact-button {
+  font-size: 27px;
+
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid #1cbcd5;
+  box-shadow: var(--box-shadow);
+}
+
+.about-button {
+  font-size: 27px;
+
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px solid #1cbcd5;
+  box-shadow: var(--box-shadow);
+}
+
+.text-info:hover {
+  text-decoration: none;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-link {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.about-link {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: white;
+  text-align: center;
+  display: block;
+}
+
+.homepage-link:hover {
+  color: white;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.border-info {
+  border: 4px solid #1cbcd5 !important;
+}
+
+.email {
+  color: white;
+}
+
+.email:hover {
+  color: white;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
